@@ -19,7 +19,7 @@ Usage
 
 When installed, run ``ansible -m setup all`` to collect all facts to the cache. When the cache is populated, you can start doing some interesting ad-hoc commands:
 
-    ansible -m shell -a "yum -y upgrade" ansible_os_family_RedHat:&ansible_distribution_version_6.0
+    ansible -m shell -a "yum -y upgrade" "ansible_os_family_RedHat:&ansible_distribution_version_6.0"
 
 Or use them in your playbooks:
 
