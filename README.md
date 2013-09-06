@@ -11,8 +11,8 @@ Requirements
 Installation
 ------------
 
-Copy *inventory.py* to *lib/ansible/callback_plugins*
-Copy *facts_to_groups.py* to */etc/ansible/hosts/* or just it as your inventory script.
+* Copy *inventory.py* to *lib/ansible/callback_plugins*
+* Copy *facts_to_groups.py* to */etc/ansible/hosts/* or just it as your inventory script.
 
 Usage
 -----
